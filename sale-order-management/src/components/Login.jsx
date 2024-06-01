@@ -28,7 +28,7 @@ export default function Login() {
 
     if (username === "dummy" && password === "dummy") {
       setError("");
-      navigate("/sale-orders"); // Redirect to main app on successful login
+      navigate("/sale-orders"); 
     } else {
       setError("Invalid username or password. Please try again.");
       setUserName("");

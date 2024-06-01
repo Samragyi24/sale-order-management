@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel, Box } from '@chakra-ui/react';
 import ActiveSaleOrders from './ActiveSaleOrders';
-import CompletedSaleOrders from './CompletedSaleOrders'; // Assuming you have this component
+import CompletedSaleOrders from './CompletedSaleOrders';
 
 const SaleOrders = () => {
   return (

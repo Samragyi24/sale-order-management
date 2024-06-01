@@ -18,7 +18,6 @@ import {
   FormControl,
   FormLabel,
   Input,
-  useDisclosure
 } from '@chakra-ui/react';
 import Select from 'react-select';
 
@@ -26,7 +25,6 @@ const productOptions = [
   { value: 'product1', label: 'Product 1' },
   { value: 'product2', label: 'Product 2' },
   { value: 'product3', label: 'Product 3' },
-  // Add more product options here
 ];
 
 const ActiveSaleOrders = () => {
@@ -39,7 +37,6 @@ const ActiveSaleOrders = () => {
   const [currentOrder, setCurrentOrder] = useState(null);
   const [isNewOrder, setIsNewOrder] = useState(false);
 
-  const { isOpen, onOpen, onClose } = useDisclosure();
 
   const handleEditClick = (order) => {
     setCurrentOrder(order);
